@@ -49,6 +49,21 @@ Hyperparameter grid searched: `n_estimators` ∈ {100, 200, 300}, `learning_rate
 
 ## Visualizations
 
+### California Median Home Prices (Feb 2025)
+![CA Home Price Summary](images/ca_home_price_summary.png)
+
+### Average House Price Map
+![Housing Map](images/HousingMap.png)
+
+### Distribution Overview — Income, Price, Age & Ocean Proximity
+![Bins Overview](images/bins_overview.png)
+
+### Price by Housing Age & Ocean Proximity
+![Price by Age](images/price_by_age.png)
+
+### Price by Ocean Proximity
+![Price by Ocean Proximity](images/price_by_ocean.png)
+
 ### Feature Importance — Gradient Boosting
 ![Feature Importance - Gradient Boosting](images/feature_importance_gradient_boosting.png)
 
@@ -57,12 +72,6 @@ Hyperparameter grid searched: `n_estimators` ∈ {100, 200, 300}, `learning_rate
 
 ### Feature Importance — XGBoost (Tuned)
 ![Feature Importance - XGBoost Tuned](images/feature_importance_xgboost_tuned.png)
-
-### Correlation Matrix
-![Correlation Matrix](images/correlation_matrix.png)
-
-### Correlation Matrix (Enhanced)
-![Correlation Matrix Enhanced](images/correlation_matrix_enhanced.png)
 
 ---
 
@@ -90,11 +99,14 @@ Hyperparameter grid searched: `n_estimators` ∈ {100, 200, 300}, `learning_rate
 ```
 ├── Copy_of_Project_1_Extention_Carlo_Castro.ipynb   # Main analysis notebook
 ├── images/
+│   ├── ca_home_price_summary.png
+│   ├── HousingMap.png
+│   ├── bins_overview.png
+│   ├── price_by_age.png
+│   ├── price_by_ocean.png
 │   ├── feature_importance_gradient_boosting.png
 │   ├── feature_importance_xgboost.png
-│   ├── feature_importance_xgboost_tuned.png
-│   ├── correlation_matrix.png
-│   └── correlation_matrix_enhanced.png
+│   └── feature_importance_xgboost_tuned.png
 └── README.md
 ```
 
